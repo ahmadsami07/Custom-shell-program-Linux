@@ -1,0 +1,14 @@
+theme blue
+print Testing the script mode
+pwd
+theme red
+log
+theme green
+$VAR=foo
+print The value of the variable VAR:
+print $VAR
+print This is to test a failure case
+theme red
+???
+print Bye!
+exit
